@@ -83,7 +83,8 @@ body {
   padding-top: 1rem;
   font-weight: 800;
 }
-.projects__container button {
+.projects__container button,
+.blogs button {
   cursor: pointer;
   color: black;
   outline: none;
@@ -97,7 +98,8 @@ body {
   padding-bottom: 0.5rem;
   background-color: var(--primary-color);
 }
-.projects__container button:hover {
+.projects__container button:hover,
+.blogs button:hover {
   background-color: var(--hover);
   transition: all 0.2s;
 }
@@ -108,5 +110,36 @@ body {
 
 .projects__container p {
   font-size: 1.1rem;
-  color: #fcd34d;
+  color: #ef4444;
+}
+.blogs {
+  padding-top: 1rem;
+  text-align: center;
+  background-color: #bfdbfe;
+  padding-bottom: 1rem;
+  border-radius: 5rem;
+}
+
+.blogs img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.blogs p {
+  color: black;
+  padding: 2rem;
+  display: block;
+}
+
+.footer {
+  padding-top: 1rem;
+  background-color: var(--off-white);
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.footer p {
+  display: inline;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
