@@ -103,6 +103,9 @@ body {
   background-color: var(--hover);
   transition: all 0.2s;
 }
+.projects_all {
+  margin-top: 2rem;
+}
 
 .projects__container h2 {
   font-size: 1.7rem;
