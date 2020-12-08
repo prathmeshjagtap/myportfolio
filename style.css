@@ -138,11 +138,19 @@ body {
   padding-top: 1rem;
   background-color: var(--off-white);
   text-align: center;
-  padding-bottom: 2rem;
 }
-.footer p {
+
+.footer li,
+.footer__projects li {
   display: inline;
   padding-right: 1rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
+}
+.footer__projects {
+  padding-top: 1rem;
+  background-color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 4rem;
 }
