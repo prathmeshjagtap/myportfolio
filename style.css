@@ -84,7 +84,8 @@ body {
   font-weight: 800;
 }
 .projects__container button,
-.blogs button {
+.blogs button,
+.blogs__container button {
   cursor: pointer;
   color: black;
   outline: none;
@@ -99,7 +100,8 @@ body {
   background-color: var(--primary-color);
 }
 .projects__container button:hover,
-.blogs button:hover {
+.blogs button:hover,
+.blogs__container button:hover {
   background-color: var(--hover);
   transition: all 0.2s;
 }
@@ -153,4 +155,25 @@ body {
   text-align: center;
   margin-bottom: 1rem;
   border-radius: 4rem;
+}
+
+.blogs__container {
+  list-style: none;
+  display: inline;
+  text-align: center;
+}
+.blogs__container li {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-radius: 3rem;
+}
+.blogs__container li h1 {
+  color: #ef4444;
+}
+
+.blogs__containerOdd {
+  background-color: #bfdbfe;
+}
+.blogs__containerEven {
+  background-color: #eff6ff;
 }
