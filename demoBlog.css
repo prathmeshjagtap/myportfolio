@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@300&family=Ubuntu&display=swap");
+:root {
+  --font-family: "Ubuntu", sans-serif;
+  --off-white: white;
+
+  --primary-color: #60a5fa;
+  --shadow: rgba(50, 50, 50, 0.123);
+  --box: 1px 5px 14px 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  justify-content: center;
+  padding: 1.3rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 5px 14px 0px rgba(12, 168, 240, 0.158);
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+  margin-top: 4rem;
+  box-shadow: var(--box) var(--shadow);
+  padding: 2rem;
+}
+.title {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 700;
+  padding-top: 3rem;
+}
+.article {
+  font-family: var(--font-family);
+  font-weight: 300;
+  padding-top: 3rem;
+}
+
+.footer {
+  padding-top: 3rem;
+  background-color: var(--off-white);
+  text-align: center;
+}
+
+.footer li,
+.footer__projects li {
+  display: inline;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
