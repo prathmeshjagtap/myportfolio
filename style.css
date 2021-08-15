@@ -40,7 +40,7 @@ body {
   transition: 0.5s;
 }
 .image {
-  padding: 2rem;
+  width: 100%;
   max-width: 450px;
   display: block;
   margin: auto;
@@ -65,7 +65,7 @@ body {
 .tech h4 {
   color: var(--off-white);
   font-weight: 800;
-  padding: 0 0.5rem;
+  /* padding: 0 0.5rem; */
   background-color: var(--primary-color);
 }
 .projects {
